@@ -15,13 +15,19 @@ def cube(x):
     return x*x*x
 
 # function with default value for an argument
-
+def power():
+    result = 1
+    for i in range(x):
+        result = result * num
+    return result
 
 #function with variable number of arguments
 
 #func1()
 #print(func1())
 #print(func1)
-func2(10,20)
-print(func2(10,20))
-print(cube(30))
+#func2(10,20)
+#print(func2(10,20))
+#print(cube(30))
+print(power(2))
+print(power(2,3))
