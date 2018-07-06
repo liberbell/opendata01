@@ -3,8 +3,8 @@
 #
 
 # define a basic function
-def func1():
-    print("I am a function")
+ def func1():
+     print("I am a function")
 
 # function that takes arguments
 def func2(arg1, arg2):
@@ -23,11 +23,11 @@ def power(num, x=1):
 
 #function with variable number of arguments
 
-#func1()
-#print(func1())
-#print(func1)
-#func2(10,20)
-#print(func2(10,20))
-#print(cube(30))
+func1()
+print(func1())
+print(func1)
+func2(10,20)
+print(func2(10,20))
+print(cube(30))
 print(power(2))
 print(power(2,3))
