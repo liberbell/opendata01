@@ -12,17 +12,19 @@ def main():
 
 
   # define a for loop
-  for x in range(5, 10):
-      print(x)
+  # for x in range(5, 10):
+  #     print(x)
 
 
   # use a for loop over a collection
-days=["Mon", "Tue", "Wed", "thu", "Fri", "Sat", "Sun"]
-for d in days:
-    print (d)
+# days=["Mon", "Tue", "Wed", "thu", "Fri", "Sat", "Sun"]
+# for d in days:
+#     print (d)
 
   # use the break and continue statements
-
+for x in range(5, 10):
+    if (x==7):break
+    print(x)
 
   #using the enumerate() function to get index
 
