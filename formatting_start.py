@@ -16,6 +16,9 @@ def main():
 
 
   # %c - locale's date and time, %x - locale's date, %X - locale's time
+  print(now.strftime("Locale date and time is: %c"))
+  print(now.strftime("Locale date is: %x"))
+  print(now.strftime("Locale time is: %X"))
 
 
   #### Time Formatting ####
