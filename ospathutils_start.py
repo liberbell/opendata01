@@ -14,6 +14,9 @@ def main():
 
 
   # Check for item existence and type
+  print("Items exist: " + str(path.exists("textfile.txt")))
+  print("This is a file: " + str(path.isfile("textfile.txt")))
+  print("Item is a directory: " + str(path.isdir("textfile.txt")))
 
 
   # Work with file paths
