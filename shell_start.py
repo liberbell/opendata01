@@ -19,6 +19,7 @@ def main():
 
     # copy over the permissions, modification times, and other info
     shutil.copy(src, dst)
+    shutil.copystat(src, dst)
 
 
     # rename the original file
