@@ -20,6 +20,9 @@ def printResults(data):
 
 
   # for each event, print the place where it occurred
+  for i in theJSON["features"]:
+      print(i["properties"]["place"])
+  print("----------\n")
 
 
   # print the events that only have a magnitude greater than 4
