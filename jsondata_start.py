@@ -33,6 +33,14 @@ def printResults(data):
 
 
   # print only the events where at least 1 person reported feeling something
+  print("Events that were felt:")
+  for i in theJSON["features"]:
+    feltReports = i["properties"]["felt"]
+    if feltReports != None:
+        if feltReports > 0:
+            print("%2.2f" % i["properties"]["mag"], i["properties"]["place"],
+            " reported " + str(feltReports) + " times")
+
 
 
 def main():
