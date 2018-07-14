@@ -14,6 +14,10 @@ def main():
 
 
   # get a list of XML tags from the document and print each one
+  skills = doc.getElementsByTagName("skill")
+  print("%d skills: " % skills.length)
+  for skill in skills:
+      print(skill.getAttribute("name"))
 
 
   # create a new XML tag and add it into the document
