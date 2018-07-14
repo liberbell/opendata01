@@ -26,6 +26,10 @@ def printResults(data):
 
 
   # print the events that only have a magnitude greater than 4
+  for i in theJSON["features"]:
+      if i["properties"]["mag"] >= 4.0:
+        print("%2.1f" % i["properties"]["mag"], i["properties"]["place"])
+  print("---------\n")
 
 
   # print only the events where at least 1 person reported feeling something
