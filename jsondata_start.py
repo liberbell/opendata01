@@ -28,7 +28,7 @@ def printResults(data):
   # print the events that only have a magnitude greater than 4
   for i in theJSON["features"]:
       if i["properties"]["mag"] >= 4.0:
-        print("%2.1f" % i["properties"]["mag"], i["properties"]["place"])
+        print("%2.2f" % i["properties"]["mag"], i["properties"]["place"])
   print("---------\n")
 
 
