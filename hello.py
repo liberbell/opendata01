@@ -1,5 +1,5 @@
-def main():
-  print("Hello World")
+#!/usr/bin/env python3
+# Copyright 2009-2017 BHG http://bw.org/
 
-if __name__ == '__main__':
-    main()
+print('Hello, World.')
+print("something entirely different")
