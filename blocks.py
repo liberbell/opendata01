@@ -4,13 +4,11 @@
 x = 42
 y = 73
 
-print(x)
-print(y)
-if x < y:
-    z = 112
+if x > y:
+    print('x > y: x is {} and y is {}'.format(x, y))
+elif x < y:
     print('x < y: x is {} and y is {}'.format(x, y))
-    print("line2")
-    print("line3")
-    print("line4")
-
-print("z is {}".format(z))
+elif x == y:
+    print('x = y: x is {} and y is {}'.format(x, y))
+else:
+    print("do something else")
