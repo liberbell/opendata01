@@ -2,4 +2,4 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = 42
-print('Hello, World. %d' % x)
+print(f'Hello, World. {x}')
