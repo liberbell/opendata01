@@ -3,6 +3,6 @@
 
 a = 8
 b = 9
-x = f'seven {a:<9} {b}'
+x = f'seven {a:<09} {b:>08}'
 print('x is {}'.format(x))
 print(type(x))
