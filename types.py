@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
+from decimal import *
 
-x = .1 + .1 + .1 - .3 
+a = Decimal('.10')
+b = Decimal('.30')
+x = a + a + a - b
 print('x is {}'.format(x))
 print(type(x))
