@@ -2,5 +2,6 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = { 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
+x['three'] = 42
 for k, v in x.items():
     print('K: {}, v: {}'.format(k, v))
