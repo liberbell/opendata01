@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
 
-x = 5
+x = 42
 
 if x == 0:
     print('zero true')
