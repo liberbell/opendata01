@@ -11,7 +11,7 @@ print(id(y))
 #     print('yep')
 # else:
 #     print('nope')
-if type(x) == 'tuple':
+if isinstance(x, tuple):
     print('yep')
 else:
     print('nope')
