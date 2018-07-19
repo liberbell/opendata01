@@ -4,10 +4,14 @@
 x = (1, 'two', 3.0, [4, 'four'], 5)
 y = (1, 'two', 3.0, [4, 'four'], 5)
 print('x is {}'.format(x))
-print(id(x))
+print(type(x))
 print(id(y))
 
-if x is y:
+# if x is y:
+#     print('yep')
+# else:
+#     print('nope')
+if type(x) == 'tuple':
     print('yep')
 else:
     print('nope')
