@@ -2,9 +2,9 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = 42
-y = 41
+y = 73
 
-if x <= y:
+if x >= y:
     print('comparison is true')
 else:
     print('comparison is false')
