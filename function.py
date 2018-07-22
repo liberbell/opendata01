@@ -2,15 +2,20 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    x = 5
+    x = [5]
+    y = x
+    y[0] = 3
     print(id(x))
-    kitten(x)
-    print(f"in main: x is {x}")
+    print(id(y))
+    print(x)
+    print(y)
+    # kitten(x)
+    # print(f"in main: x is {x}")
     # x = kitten(5, 6, 7)
     # print(x)
 
 def kitten(a):
-    print(id(a))
+    # print(id(a))
     a = 3
     print(id(a))
     print('Meow.')
