@@ -2,18 +2,11 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    x = [5]
-    kitten(x)
-    print(f"in main: x is {x}")
-    # x = kitten(5, 6, 7)
-    # print(x)
+    x = kitten()
+    print(type(x), x)
 
-def kitten(a):
-    a[0] = 3
-    # print(id(a))
-    # a = 3
-    # print(id(a))
+def kitten():
     print('Meow.')
-    print(a)
+    return 42
 
 if __name__ == '__main__': main()
