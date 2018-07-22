@@ -6,7 +6,7 @@ b = False
 x = ( 'bear', 'bunny', 'tree', 'sky', 'rain' )
 y = 'bear'
 
-if 'sky' in x:
+if y is x[0]:
     print('expression is true')
 else:
     print('expression is false')
