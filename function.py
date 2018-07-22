@@ -2,11 +2,15 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    x = kitten(5, 6, 7)
+    x = 5
+    kitten(x)
+    print(f"in main: x is {x}")
+    # x = kitten(5, 6, 7)
     # print(x)
 
-def kitten(a, b, c = 0):
+def kitten(a):
+    a = 3
     print('Meow.')
-    print(a, b, c)
+    print(a)
 
 if __name__ == '__main__': main()
