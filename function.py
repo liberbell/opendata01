@@ -9,6 +9,7 @@ def main():
     # print(x)
 
 def kitten(a):
+    a[0] = 3
     # print(id(a))
     # a = 3
     # print(id(a))
