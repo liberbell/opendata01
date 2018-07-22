@@ -3,13 +3,16 @@
 
 def main():
     x = 5
+    print(id(x))
     kitten(x)
     print(f"in main: x is {x}")
     # x = kitten(5, 6, 7)
     # print(x)
 
 def kitten(a):
+    print(id(a))
     a = 3
+    print(id(a))
     print('Meow.')
     print(a)
 
