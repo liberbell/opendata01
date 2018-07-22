@@ -11,3 +11,7 @@ while pw != secret:
     count +=1
     if count > max_attempts: break
     pw = input(f"{count}: What's the secret word? ")
+else:
+    auth = True
+
+print("Authorised" if auth else "calling the FBI")
