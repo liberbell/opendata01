@@ -9,10 +9,10 @@ def f1(f):
         print('this is after the function call')
     return f2
 
+@f1
 def f3():
     print('this is f3')
 
-f3 = f1(f3)
 f3()
 # def f1():
 #     def f2():
