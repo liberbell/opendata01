@@ -3,7 +3,8 @@
 
 def main():
     game = [ 'Rock', 'Paper', 'Scissors', 'Lizard', 'Spock' ]
-    print(game[1:5:2])
+    i = game.index('Paper')
+    print(game[i])
     print_list(game)
 
 def print_list(o):
