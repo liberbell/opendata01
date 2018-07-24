@@ -5,6 +5,7 @@ def main():
     game = [ 'Rock', 'Paper', 'Scissors', 'Lizard', 'Spock' ]
     i = game.index('Paper')
     print(game[i])
+    game.insert(0,'Computer')
     print_list(game)
 
 def print_list(o):
