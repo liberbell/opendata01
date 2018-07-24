@@ -3,9 +3,12 @@
 
 def main():
     game = [ 'Rock', 'Paper', 'Scissors', 'Lizard', 'Spock' ]
-    i = game.index('Paper')
-    print(game[i])
-    game.insert(0,'Computer')
+    # i = game.index('Paper')
+    # print(game[i])
+    # game.insert(0,'Computer')
+    # game.remove('Paper')
+    i = game.pop(3)
+    print(i)
     print_list(game)
 
 def print_list(o):
