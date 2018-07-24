@@ -12,8 +12,8 @@ def f1(f):
 def f3():
     print('this is f3')
 
-x = f1(f3)
-x()
+f3 = f1(f3)
+f3()
 # def f1():
 #     def f2():
 #         print('this is f2')
