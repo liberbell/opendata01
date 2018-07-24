@@ -9,7 +9,9 @@ def main():
     # game.remove('Paper')
     # i = game.pop(3)
     # print(i)
-    del game[1:3]
+    # del game[1:3]
+    print(', '.join(game))
+    print(len(game))
     print_list(game)
 
 def print_list(o):
