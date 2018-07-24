@@ -7,8 +7,9 @@ def main():
     # print(game[i])
     # game.insert(0,'Computer')
     # game.remove('Paper')
-    i = game.pop(3)
-    print(i)
+    # i = game.pop(3)
+    # print(i)
+    del game[1:3]
     print_list(game)
 
 def print_list(o):
