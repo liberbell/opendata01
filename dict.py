@@ -5,6 +5,7 @@ def main():
     animals = dict(kitten = 'meow',puppy = 'ruff!', lion= 'grrr',
         giraffe = 'I am a giraffe!', dragon = 'rawr')
     for v in animals.values(): print(v)
+    for k in animals.keys(): print(k)
     # for k, v in animals.items():
     #     print(f'{k}: {v}')
     # animals = { 'kitten': 'meow', 'puppy': 'ruff!', 'lion': 'grrr',
