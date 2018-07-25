@@ -4,9 +4,9 @@
 def main():
     animals = dict(kitten = 'meow',puppy = 'ruff!', lion= 'grrr',
         giraffe = 'I am a giraffe!', dragon = 'rawr')
-    animals['lion'] = 'I am a lion'
-    animals['monkey'] = 'hah'
-    print('lion' in animals)
+    # animals['lion'] = 'I am a lion'
+    # animals['monkey'] = 'hah'
+    print('found!' if 'lion' in animals else 'nope')
     # print(animals['lion'])
     # for v in animals.values(): print(v)
     # for k in animals.keys(): print(k)
