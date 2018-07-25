@@ -6,6 +6,7 @@ def main():
         giraffe = 'I am a giraffe!', dragon = 'rawr')
     animals['lion'] = 'I am a lion'
     animals['monkey'] = 'hah'
+    print('lion' in animals)
     # print(animals['lion'])
     # for v in animals.values(): print(v)
     # for k in animals.keys(): print(k)
