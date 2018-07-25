@@ -7,6 +7,7 @@ def main():
     # animals['lion'] = 'I am a lion'
     # animals['monkey'] = 'hah'
     print('found!' if 'lion' in animals else 'nope')
+    print('found!' if 'gozilla' in animals else 'nope')
     # print(animals['lion'])
     # for v in animals.values(): print(v)
     # for k in animals.keys(): print(k)
