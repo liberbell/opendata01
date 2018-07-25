@@ -4,14 +4,15 @@
 def main():
     animals = dict(kitten = 'meow',puppy = 'ruff!', lion= 'grrr',
         giraffe = 'I am a giraffe!', dragon = 'rawr')
-    print(animals['lion'])
+    animals['lion'] = 'I am a lion'
+    # print(animals['lion'])
     # for v in animals.values(): print(v)
     # for k in animals.keys(): print(k)
     # for k, v in animals.items():
     #     print(f'{k}: {v}')
     # animals = { 'kitten': 'meow', 'puppy': 'ruff!', 'lion': 'grrr',
     #     'giraffe': 'I am a giraffe!', 'dragon': 'rawr' }
-    # print_dict(animals)
+    print_dict(animals)
 
 def print_dict(o):
     for k, v in o.items(): print(f'{k}: {v}')
