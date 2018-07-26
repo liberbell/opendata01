@@ -3,7 +3,8 @@
 
 def main():
     seq = range(11)
-    seq2 = [(x, x**2) for x in seq]
+    from math import pi
+    seq2 = [round(pi,i) for i in seq]
     print_list(seq)
     print_list(seq2)
 
