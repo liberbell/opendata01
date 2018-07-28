@@ -1,4 +1,6 @@
-for x in range(100,110):
+count = 0
+
+for x in range(100,110,1):
     print('x =',x)
-    y = x + 1
-    print('y =',y)
+    x = x + 1
+    # print('y =',y)
