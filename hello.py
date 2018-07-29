@@ -1,23 +1,11 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
 
-# print('Hello, World.')
-def f1(f):
-    def f2():
-        print('this is before the function call')
-        f()
-        print('this is after the function call')
-    return f2
+def main():
+    try:
+        x = 5/0
+    except ValueError:
+        print('I caught a ValueError')
+    # print('Hello, World.')
 
-@f1
-def f3():
-    print('this is f3')
-
-f3()
-# def f1():
-#     def f2():
-#         print('this is f2')
-#     return f2
-#
-# x = f1()
-# x()
+if __name__ == '__main__': main()
