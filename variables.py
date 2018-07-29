@@ -30,5 +30,7 @@ def main():
     print(a1)
 
     print(a0.x)
+    a1.x[0] = 7
+    print(a0.x)
 
 if __name__ == '__main__': main()
