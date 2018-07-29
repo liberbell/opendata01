@@ -1,9 +1,8 @@
 count = 0
-z = 0
+y = 0
 
 for x in range(0,11):
     print('x =',x)
-    y = x
-    z = z + x
+    y = y + x
     # print('y =',y)
-    print(z)
+    print(y)
