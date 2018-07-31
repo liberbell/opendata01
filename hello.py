@@ -4,7 +4,9 @@
 s1 = 'Hello, World.'
 s2 = s1.upper()
 s3 = 'this is another string'
+s4 = 'this string' ' that string'
 # print('Hello, World.'.upper())
 print(id(s1))
 print(id(s2))
 print(s1 + ' ' + s3)
+print(s4)
