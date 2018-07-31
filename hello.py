@@ -3,4 +3,4 @@
 
 x = 42
 y = 73
-print('the number is {:b}'.format(x))
+print(f'the number is {x:b}')
