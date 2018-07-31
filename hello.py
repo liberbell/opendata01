@@ -2,4 +2,5 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = 42
-print('the number is {}'.format(x))
+y = 73
+print('the number is {} {}'.format(x,y))
