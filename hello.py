@@ -11,3 +11,4 @@ class bunny:
 
 x = bunny(47)
 print(repr(x))
+print(ord('🖖'))
