@@ -2,7 +2,9 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = 47
-y = divmod(x, 3)
+# y = divmod(x, 3)
+# y = complex(x, 3)
+y = complex(x, 73)
 
 print(f'x is {type(x)}')
 print(f'x is {x}')
