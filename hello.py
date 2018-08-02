@@ -2,9 +2,9 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 # print('Hello, World.')
-# x = (1, 2, 3, 4, 5)
-x = (0, 0, 0, 0, 0)
-y = any(x)
+x = (1, 2, 3, 4, 5)
+# x = (0, 0, 1, 0, 0)
+y = all(x)
 # y = reversed(x)
 # for i in y:
 #     print(i)
