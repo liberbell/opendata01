@@ -3,6 +3,6 @@
 
 # print('Hello, World.')
 x = (1, 2, 3, 4, 5)
-y = reversed(x)
+y = list(reversed(x))
 print(x)
 print(y)
