@@ -4,7 +4,7 @@
 # print('Hello, World.')
 x = (1, 2, 3, 4, 5)
 # x = (0, 0, 1, 0, 0)
-y = (6, 7, 8, 9, 10)
+y = (6, 7, 8, 9)
 z = zip(x,y)
 # y = reversed(x)
 # for i in y:
