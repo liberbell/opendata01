@@ -4,9 +4,13 @@
 # print('Hello, World.')
 x = (1, 2, 3, 4, 5)
 # x = (0, 0, 1, 0, 0)
-y = all(x)
+y = (6, 7, 8, 9, 10)
+z = zip(x,y)
 # y = reversed(x)
 # for i in y:
 #     print(i)
-print(x)
-print(y)
+# print(x)
+# print(y)
+
+for a, b in z:
+    print(f'{a}, - {b}')
