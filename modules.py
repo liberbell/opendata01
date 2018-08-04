@@ -8,8 +8,11 @@ import random
 def main():
     # v = sys.version_info
     # v = os.urandom(1).hex()
-    x = random.randint(1, 100000)
+    # x = random.randint(1, 100000)
+    x = list(range(25))
     # print('Python version {}.{}.{}'.format(*v))
+    print(x)
+    random.shuffle(x)
     print(x)
 
 if __name__ == '__main__': main()
