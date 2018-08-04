@@ -6,7 +6,7 @@ import os
 
 def main():
     # v = sys.version_info
-    v = os.getcwd()
+    v = os.urandom(25)
     # print('Python version {}.{}.{}'.format(*v))
     print(v)
 
