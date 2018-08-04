@@ -2,7 +2,7 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 x = 42
-y = type(x)
+y = isinstance(x, int)
 print(x)
 print(y)
 # print('Hello, World.')
