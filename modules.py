@@ -6,7 +6,7 @@ import os
 
 def main():
     # v = sys.version_info
-    v = os.name
+    v = os.getenv('PATH')
     # print('Python version {}.{}.{}'.format(*v))
     print(v)
 
