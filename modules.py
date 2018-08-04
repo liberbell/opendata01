@@ -17,6 +17,6 @@ def main():
     print(x)
 
     now = datetime.datetime.now()
-    print(now.day)
+    print(now.year, now.month, now.day, now.hour, now.minute)
 
 if __name__ == '__main__': main()
