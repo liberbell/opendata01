@@ -3,11 +3,13 @@
 
 import sys
 import os
+import random
 
 def main():
     # v = sys.version_info
-    v = os.urandom(25)
+    # v = os.urandom(1).hex()
+    x = random.randint(1, 100000)
     # print('Python version {}.{}.{}'.format(*v))
-    print(v)
+    print(x)
 
 if __name__ == '__main__': main()
