@@ -2,10 +2,11 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 import sys
+import os
 
 def main():
     # v = sys.version_info
-    v = sys.platform
+    v = os.name
     # print('Python version {}.{}.{}'.format(*v))
     print(v)
 
