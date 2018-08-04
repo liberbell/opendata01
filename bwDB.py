@@ -245,7 +245,7 @@ def test():
     for r in db.getrecs():
         print(dict(r))
     for r in db.sql_query(f"select * from {t}"):
-        print(dict(r))
+        print(tuple(r))
     db.close()
 
 
