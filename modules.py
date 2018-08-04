@@ -4,6 +4,7 @@
 import sys
 import os
 import random
+import datetime
 
 def main():
     # v = sys.version_info
@@ -14,5 +15,8 @@ def main():
     print(x)
     random.shuffle(x)
     print(x)
+
+    now = datetime.datetime.now()
+    print(now.day)
 
 if __name__ == '__main__': main()
