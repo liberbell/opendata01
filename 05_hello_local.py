@@ -18,8 +18,8 @@ class HelloApp:
         ttk.Button(master, text = "Hawaii",
                    command = self.hawaii_hello).grid(row = 1, column = 1)
 
-        ttk.Button(master, text = 'Back',
-                   command = self.back_hello).grid(row = 1, colum = 2)
+        ttk.Button(master, text = "Back",
+                   command = self.back_hello).grid(row = 1, column = 2)
 
     def texas_hello(self):
         self.label.config(text = 'Howdy, Tkinter!')
@@ -28,7 +28,7 @@ class HelloApp:
         self.label.config(text = 'Aloha, Tkinter!')
 
     def back_hello(self):
-        self.label.config(text = 'Hello, Tkinter!s')
+        self.label.config(text = 'Hello, Tkinter!')
 
 
 def main():
