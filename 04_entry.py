@@ -15,8 +15,8 @@ entry.delete(0, 1)
 entry.delete(0, END)
 entry.insert(0, 'Enter your password')
 #
-# entry.config(show = '*')
-# entry.state(['disabled'])
+entry.config(show = '*')
+entry.state(['disabled'])
 # entry.state(['readonly'])
 # entry.state(['!disabled'])
 
