@@ -1,7 +1,7 @@
 # Python Logical Operators: And, Or, Not:
 
 # What is a Boolean?
-isRaining = True
+isRaining = False
 isSunny = False
 
 # Logical Operators -> Special Operators for Booleans
@@ -26,3 +26,5 @@ if isRaining or isSunny:
 # NOT
 # true --> false
 # false --> true
+if not isRaining:
+    print('It must be raining')
