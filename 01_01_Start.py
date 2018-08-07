@@ -28,3 +28,9 @@ if isRaining or isSunny:
 # false --> true
 if not isRaining:
     print('It must be raining')
+
+ages = [12, 18, 23, 30, 37, 48, 7, 2]
+for age in ages:
+    isAdult = age > 17;
+    if not isAdult:
+        print('Being ' + str(age) +' does not make you an Adult.')
