@@ -24,7 +24,10 @@ if kitten < tiger:
     print('The kitten weight is less than the tiger')
 
 # < --> is less than
+mouse = 1
 
+if mouse < kitten and mouse < tiger:
+    print('the mouse weights the least')
 #False --> 0
 #True --> 1
 # > --> is greater than
