@@ -31,6 +31,7 @@ if mouse < kitten and mouse < tiger:
 #False --> 0
 #True --> 1
 # > --> is greater than
+print(False > True)
 
 # Looking for first mismatched letter
 # A - Z --> 1 - 26
