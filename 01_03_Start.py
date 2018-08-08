@@ -13,3 +13,5 @@ print(len(ages))
 i = 0
 for i in range(0, len(ages)):
     print(ages[i])
+
+print(len(['bob', 'mary', 'subsample']))
