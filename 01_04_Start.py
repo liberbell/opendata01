@@ -7,3 +7,7 @@ print(list(numberdContestants))
 
 for c in list(numberdContestants):
     print('Contestant ' + str(c) + ' is here')
+
+luckyWinner = range(7, 30, 5)
+
+print(list(luckyWinner))
