@@ -4,5 +4,7 @@ sortedGame = sorted(pointsInaGame)
 print(sortedGame)
 
 # Alphabetically
+childen = ['sue', 'Jerry', 'Linda']
+print(sorted(childen))
 
 # Key Parameters
