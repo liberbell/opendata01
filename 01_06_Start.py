@@ -14,5 +14,10 @@ print(round(google))
 # abs()
 distanceAway = -13
 print(abs(distanceAway))
+lengthOfRoot = -1.5
+print(abs(lengthOfRoot))
 
 # pow()
+chanceOfTails = 0.5
+inARowTails = 3
+print(pow(chanceOfTails,inARowTails))
