@@ -7,3 +7,4 @@ print(min(playerOneScore,playerTwoScore))
 
 print(min(0, 4, 19, -5))
 print(min('Kathryn', 'Katie'))
+print(min('Angela', 'Bob'))
