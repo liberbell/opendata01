@@ -10,3 +10,8 @@ print(min('Kathryn', 'Katie'))
 print(min('Angela', 'Bob'))
 
 print(max(playerOneScore,playerTwoScore))
+
+playerThreeScore = 21
+print(max(playerOneScore,playerTwoScore,playerThreeScore))
+
+print(max('Kathryn', 'Katie'))
