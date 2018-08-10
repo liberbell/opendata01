@@ -12,5 +12,7 @@ google = -1.6
 print(round(google))
 
 # abs()
+distanceAway = -13
+print(abs(distanceAway))
 
 # pow()
