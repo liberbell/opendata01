@@ -14,3 +14,4 @@ print(sorted(pointsInaGame,reverse=True))
 
 leaderboard = {231: 'CKL',123: 'abc', 432:'JKC'}
 print(sorted(leaderboard,reverse=True))
+print(leaderboard.get(432))
