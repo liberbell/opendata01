@@ -7,7 +7,7 @@ print(type('Hi there'))
 class cars:
     pass
 
-class Trucks(cars):
+class Trucks():
     pass
 
 c = cars()
@@ -20,4 +20,4 @@ print(type(c) == type(t))
 print(type(c) == type(convert))
 
 print(isinstance(c, cars))
-print(isinstance(t, Trucks))
+print(isinstance(t, cars))
