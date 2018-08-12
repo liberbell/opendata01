@@ -15,3 +15,7 @@ print(obst_direction)
 print(math.sin(math.pi / 4))
 
 # Ceiling and Floor
+cookies = 10.3
+candy = 7
+
+print(math.ceil(cookies))
