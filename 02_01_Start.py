@@ -19,3 +19,4 @@ cookies = 10.3
 candy = 7
 
 print(math.ceil(cookies))
+print(math.ceil(candy))
