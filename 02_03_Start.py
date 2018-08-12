@@ -20,3 +20,7 @@ print(lotteryWinners)
 
 possiblePets = ['cat', 'dog', 'fish']
 print(random.choice(possiblePets))
+
+cards = ['jack', 'queen', 'king', 'joker', 'ace']
+random.shuffle(cards)
+print(cards)
