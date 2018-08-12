@@ -6,5 +6,10 @@ print(math.factorial(4))
 print(math.sqrt(64))
 
 # Greatest Common Denominator GCD
+print(math.gcd(52, 8))
+print(math.gcd(8, 52))
+
+print(8/52)
+print(2/13)
 
 # Degrees and Radians
