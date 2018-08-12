@@ -11,4 +11,6 @@ if decider == 0:
 
 else:
     print('Tails')
+
+print('You rolled a ' + str(random.randrange(1, 7)))
 # Random Choices
