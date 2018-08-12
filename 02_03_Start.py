@@ -13,4 +13,7 @@ else:
     print('Tails')
 
 print('You rolled a ' + str(random.randrange(1, 7)))
+
 # Random Choices
+lotteryWinners = random.sample(range(100), 5)
+print(lotteryWinners)
