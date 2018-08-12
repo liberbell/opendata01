@@ -21,3 +21,6 @@ print(type(c) == type(convert))
 
 print(isinstance(c, cars))
 print(isinstance(t, cars))
+
+if isinstance(r, range):
+    print(list(r))
