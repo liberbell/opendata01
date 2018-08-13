@@ -8,5 +8,7 @@ for x in itertools.count(50, 5):
         break;
 
 # Infinite Cycling
+for c in itertools.cycle('Racecar'):
+    print(c)
 
 # Infinite Repeating
