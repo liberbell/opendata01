@@ -7,3 +7,5 @@ print(statistics.mean(agesData))
 print(statistics.mode(agesData))
 
 print(statistics.median(agesData))
+
+print(sorted(agesData))
