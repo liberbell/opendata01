@@ -1,5 +1,6 @@
 # Statistics Module
 import statistics
+import math
 
 agesData = [10, 13, 14, 12, 11, 10, 11, 10, 15]
 
@@ -11,4 +12,6 @@ print(statistics.median(agesData))
 print(sorted(agesData))
 
 print(statistics.variance(agesData))
-# print(statistics.)
+print(statistics.stdev(agesData))
+
+print(math.sqrt(statistics.variance(agesData)))
