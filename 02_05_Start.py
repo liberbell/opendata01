@@ -13,6 +13,6 @@ for c in itertools.cycle('Racecar'):
     print(c)
     x = x + 1
     if x > 50:
-        break
+        break;
 
 # Infinite Repeating
