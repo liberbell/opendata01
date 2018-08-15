@@ -9,7 +9,7 @@ for x in itertools.count(50, 5):
 
 x = 0
 # Infinite Cycling
-for c in itertools.cycle('Racecar'):
+for c in itertools.cycle([1,2,3,4]):
     print(c)
     x = x + 1
     if x > 50:
