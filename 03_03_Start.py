@@ -1,6 +1,7 @@
 # Files and File Writing
 
 # Open a file
+myFile = open('scores.txt', 'w')
 
 # w --> write
 # r --> read
