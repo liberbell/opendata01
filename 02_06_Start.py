@@ -11,3 +11,6 @@ for p1 in itertools.permutations(election.values()):
 # Permutations: Order matters - some copies with same inputs but in different order
 
 # Combinations: Order does not matter - no copies with same inputs
+colorsForPainting = ['red', 'blue', 'yellow', 'orange', 'purple', 'pink']
+for c in itertools.combinations(colorsForPainting, 2):
+    print(c)
