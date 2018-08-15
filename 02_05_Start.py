@@ -18,3 +18,6 @@ for c in itertools.cycle([1,2,3,4]):
 # Infinite Repeating
 for r in itertools.repeat(True):
     print(r)
+    x = x + 1
+    if x > 100:
+        break;
