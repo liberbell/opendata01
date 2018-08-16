@@ -10,3 +10,5 @@ myFile.seek(0)
 for line in myFile:
     newHighScore = line.replace('BBB', 'PDJ')
     print(newHighScore)
+
+myFile.close()
