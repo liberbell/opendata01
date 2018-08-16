@@ -12,5 +12,7 @@ print('Name ' + myFile.name)
 print('Mode ' + myFile.mode)
 
 # Write to a file
+myFile.write('GBJ :100\nKHD: 99\nBBB : 89')
+myFile.close()
 
 # Read the file
