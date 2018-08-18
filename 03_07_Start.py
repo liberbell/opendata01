@@ -9,6 +9,9 @@ print(zip.namelist())
 for meta in zip.infolist():
     print(meta)
 
+info = zip.getinfo('purchased.txt')
+print(info)
+
 # Access to files in zip folder
 
 # Extracting files
