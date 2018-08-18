@@ -18,5 +18,6 @@ with zip.open('wishlist.txt') as f:
     print(f.read())
 
 # Extracting files
+zip.extract('purchased.txt')
 
 # Closing the zip
