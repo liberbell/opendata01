@@ -9,4 +9,6 @@ print(now.strftime('%b %B %m'))
 
 print(now.strftime('%a %B %D'))
 
-print(now.strftime('%H %M %S %p'))
+print(now.strftime('%H : %M : %S %p'))
+
+print(now.strftime('%y %Y'))
