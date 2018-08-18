@@ -22,3 +22,4 @@ with zip.open('wishlist.txt') as f:
 zip.extractall()
 
 # Closing the zip
+zip.close()
