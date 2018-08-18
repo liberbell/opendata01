@@ -13,6 +13,7 @@ info = zip.getinfo('purchased.txt')
 print(info)
 
 # Access to files in zip folder
+print(zip.read('wishlist.txt'))
 
 # Extracting files
 
