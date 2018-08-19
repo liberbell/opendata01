@@ -10,8 +10,8 @@ class HTMLParser(HTMLParser):
     def handle_endtag(self, tag):
         print('End tag: ', tag)
 
-    def handle_comments(self, data):
-        print('Comments: ', data)
+    def handle_comment(self, data):
+        print('Comment: ', data)
     def handle_data(self, data):
         print('Data: ', data)
 
