@@ -16,3 +16,6 @@ if testDate > myFirstLinkedInCourse:
 
 cal = calendar.month(2018, 8)
 print(cal)
+
+cal2 = calendar.weekday(2018, 8, 9)
+print(cal2)
