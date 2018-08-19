@@ -17,3 +17,4 @@ class HTMLParser(HTMLParser):
 
 parser = HTMLParser()
 parser.feed('<html><head><code></title></head><body><h1><!--hi-->I am a code</h1></body></html>')
+print()
