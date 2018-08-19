@@ -1,5 +1,6 @@
 # Calendar Module
 from datetime import datetime, timedelta
+import calendar
 
 now = datetime.now()
 
@@ -12,3 +13,6 @@ print(myFirstLinkedInCourse.date())
 
 if testDate > myFirstLinkedInCourse:
     print('Comparison works')
+
+cal = calendar.month(2018, 8)
+print(cal)
