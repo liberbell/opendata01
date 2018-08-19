@@ -13,7 +13,7 @@ dedent_text = textwrap.dedent(websiteText).strip()
 print(dedent_text)
 
 print("Fill")
-print(textwrap.fill(dedent_text))
+print(textwrap.fill(dedent_text, width=50))
 
 print("Controlling Indent")
 
