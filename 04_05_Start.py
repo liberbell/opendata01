@@ -22,3 +22,9 @@ print()
 input = input('Put in the HTML code')
 parser.feed(input)
 print()
+
+htmlFile = open('samHTML.html', 'r')
+s = ''
+for line in htmlFile:
+    s += line
+parser.feed(s)
