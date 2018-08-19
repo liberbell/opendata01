@@ -9,3 +9,6 @@ myFirstLinkedInCourse = now - timedelta(weeks=3)
 print(now.date())
 print(testDate.date())
 print(myFirstLinkedInCourse.date())
+
+if testDate > myFirstLinkedInCourse:
+    print('Comparison works')
