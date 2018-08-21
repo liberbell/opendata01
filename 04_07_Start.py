@@ -8,7 +8,7 @@ import textwrap
 with urllib.request.urlopen('https://www.googleapis.com/books/v1/volumes?q=isbn:1101904224') as f:
     text = f.read()
     decodetext = text.decode('utf-8')
-    print(textwrap.fill(decodetext, width=50))
+    # print(textwrap.fill(decodetext, width=50))
 
 print()
 
