@@ -20,7 +20,7 @@ print(obj['items'][0]['searchInfo']['textSnippet'])
 
 input1 = input('Put in the First Tag: ')
 input2 = input('Put in the Second Tag: ')
-# input3 = input('Put in the HTML code')
+input3 = input('Put in the Third Tag: ')
 
 print(input1)
-print(obj[input1][0][input2])
+print(obj[input1][0][input2][input3])
