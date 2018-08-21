@@ -14,3 +14,5 @@ print()
 
 obj = json.loads(decodetext)
 print(obj['kind'])
+
+print(obj['items'][0]['searchInfo']['textSnippet'])
