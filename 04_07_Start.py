@@ -17,3 +17,9 @@ print(obj['kind'])
 
 print(obj['items'][0]['kind'])
 print(obj['items'][0]['searchInfo']['textSnippet'])
+
+input1 = input('Put in the First Tag')
+input2 = input('Put in the Second Tag')
+# input3 = input('Put in the HTML code')
+
+print(obj['input1'][0]['input2'])
